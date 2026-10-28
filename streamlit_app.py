@@ -10,7 +10,7 @@ st.write("unit that my 7th grade class has finished so far.")
 
 
 st.title("Unit 1")
-st.write(" what do you need to cover in unit 1.
+st.write("what do you need to cover in unit 1.")
 st.write("Learning Target: I can successfully show that a number and its opposite have a sum of 0 (are additive inverses) and can Describe situations in which opposite Quantities combined make 0.")
 st.write("Zero Pair-A pair of numbers (like 1 and -1) that together equal zero")
 st.write("Rule summary-For any number and its additive inverse they both will equal zero")
