@@ -1,21 +1,21 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
-import streamlit as st
+st.title("Math Learners")
+st.write("Math Learners is a website where 7th graders can exectively learn how to study and practice 7th grade math.")
+st.write("All study methods have been used by me a 7th grader and all topics are going to be based on Georgia standards.")
+st.write("All of the features that are featured in this app have been coded by me. Also, all units and math knowlegde has been")
+st.write("learned at Amana Academy West Atlanta")
 
-st.title("Simple Python Calculator")
 
-# Dropdown for operations
+st.title("Math Calculator")
+
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
 
-# Inputs
 num1 = st.number_input("Enter first number", value=0.0)
 num2 = st.number_input("Enter second number", value=0.0)
 
-# Calculation logic
+rounded_result = round(result, 3)
+
 if st.button("Calculate"):
     if operation == "Add":
         st.success(f"Result: {num1 + num2}")
