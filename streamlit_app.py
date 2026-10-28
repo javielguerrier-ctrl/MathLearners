@@ -31,8 +31,7 @@ st.write("Multiplying/dividing positive and negative numbers: If both numbers ar
 st.write("Converting fractions to decimals: First take the numerator as the dividend and the denominator as the divisor, divide normally, and then add a decimal point in front of your quotient.")
 st.write("Converting decimals to fraction: First you look for many places that are behind the decimal point, then based on that your denominator will have as many zeros as decimal places, only add the numbers behind the decimal.")
 st.write("Converting decimals to percent: You take your decimal and multiply it by 100x then and the percent sign to finish converting.")
-st.write("Finding percent: when you need to find the percent you will have one out of a hundred so like 20/100 and another fraction is can be any fraction")
-st.write("but one of the fractions will be missing a part and you willl multiply the two number that are crossed to each other and then divide.")
+st.write("Finding percent: when you need to find the percent you will have one out of a hundred so like 20/100 and another fraction is can be any fraction but one of the fractions will be missing a part and you will multiply the two number that are crossed to each other and then divide.")
 
          
 st.title("Math Calculator")
