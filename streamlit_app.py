@@ -29,7 +29,7 @@ st.write("Dividing fractions: Use keep, change, flip to solve fractions while di
 st.write("Learning Target: I can apply the same rules for signs to determine if a product or quotient is positive or negative.")
 st.write("Multiplying/dividing positive and negative numbers: If both numbers are positive/negative when dividing/multiplying the answer will be positive, but when one number is positive and the other is negative in an equation then the answer will be negative.")
 st.write("Converting fractions to decimals: First take the numerator as the dividend and the denominator as the divisor, divide normally, and then add a decimal point in front of your quotient.")
-st.write("Converting decimals to fraction: First you look for many places that are behind the decimal point, then based on that your denominator will have as many zeros as decimal places, lastly") only add the numbers behind the decimal.")
+st.write("Converting decimals to fraction: First you look for many places that are behind the decimal point, then based on that your denominator will have as many zeros as decimal places, only add the numbers behind the decimal.")
 st.write("Converting decimals to percent: You take your decimal and multiply it by 100x then and the percent sign to finish converting.")
 st.write("Finding percent: when you need to find the percent you will have one out of a hundred so like 20/100 and another fraction is can be any fraction")
 st.write("but one of the fractions will be missing a part and you willl multiply the two number that are crossed to each other and then divide.")
