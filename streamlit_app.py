@@ -44,16 +44,16 @@ if st.button("Check Answer"):
     elif equation == "45":
         st.success(f"Result: Incorrect")
 
-equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
+equation = st.selectbox("35-35=", ["35+35", "10+(-10)", "25-25", "35+(-35)"])
 if st.button("Check Answer"):
-    if equation == "3":
+    if equation == "35+35":
         st.success(f"Result: Incorrect")
-    elif equation == "0":
+    elif equation == "10+(-10)":
+        st.success(f"Result: Incorrect")
+    elif equation == "25-25":
+        st.success(f"Result: Incorrect")
+    elif equation == "35+(-35)":
         st.success(f"Result: Correct")
-    elif equation == "-1":
-        st.success(f"Result: Incorrect")
-    elif equation == "45":
-        st.success(f"Result: Incorrect")
 
 st.title("Math Calculator")
 
