@@ -33,6 +33,12 @@ st.write("Finding percent: when you need to find the percent you will have one o
 
 
 st.title("Time To Practice")
+
+st.write("Multiplcation=*")
+st.write("Division=/")
+st.write("Addition=+")
+st.wirte("Subtraction=-")
+
 equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
 if st.button("Check Answer"):
     if equation == "3":
@@ -55,6 +61,16 @@ if st.button("Check Expression"):
     elif equation == "35+(-35)":
         st.success(f"Result: Correct")
 
+equation = st.selectbox("35-35=", ["35+35", "10+(-10)", "25-25", "35+(-35)"])
+if st.button("Check Expression"):
+    if equation == "35+35":
+        st.success(f"Result: Correct")
+    elif equation == "10+(-10)":
+        st.success(f"Result: Incorrect")
+    elif equation == "25-25":
+        st.success(f"Result: Incorrect")
+    elif equation == "35+(-35)":
+        st.success(f"Result: Correct")
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
