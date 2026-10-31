@@ -38,7 +38,7 @@ st.write("Multiplcation=*")
 st.write("Division=/")
 
 equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
-if st.button("Check Answer", key="btn_primary"):
+if st.button("Check Answer", key="btn_1"):
     if equation == "3":
         st.success(f"Result: Incorrect")
     elif equation == "0":
@@ -49,7 +49,7 @@ if st.button("Check Answer", key="btn_primary"):
         st.success(f"Result: Incorrect")
 
 equation = st.selectbox("35-35=", ["35+35", "10+(-10)", "25-25", "35+(-35)"])
-if st.button("Check Answer", key="btn_secondary"):
+if st.button("Check Answer", key="btn_2"):
     if equation == "35+35":
         st.success(f"Result: Incorrect")
     elif equation == "10+(-10)":
@@ -60,7 +60,7 @@ if st.button("Check Answer", key="btn_secondary"):
         st.success(f"Result: Correct")
 
 equation = st.selectbox("26+(-34)=", ["-8", "-10", "0", "60"])
-if st.button("check answer"):
+if st.button("Check Answer", key="btn_3"):
     if equation == "-8":
         st.success(f"Result: Correct")
     elif equation == "-10":
@@ -71,7 +71,7 @@ if st.button("check answer"):
         st.success(f"Result: Incorrect")
 
 equation = st.selectbox("-35/-7=", ["-5", "-10", "5", "25"])
-if st.button("Check answer"):
+if st.button("Check Answer", key="btn_4"):
     if equation == "-5":
         st.success(f"Result: Incorrect")
     elif equation == "-10":
@@ -82,7 +82,7 @@ if st.button("Check answer"):
         st.success(f"Result: Incorrect")
 
 equation = st.selectbox("A Man buys a banana for everyday of a week which is 7 days and each banana cost 3 dollars, how much money did the man spend in total.", ["18", "-21", "21", "-81"])
-if st.button("Check Answer", key):
+if st.button("Check Answer", key="btn_5):
     if equation == "-5":
         st.success(f"Result: Incorrect")
     elif equation == "-10":
