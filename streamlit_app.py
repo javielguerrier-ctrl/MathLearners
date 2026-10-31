@@ -45,7 +45,7 @@ if st.button("Check Answer"):
         st.success(f"Result: Incorrect")
 
 equation = st.selectbox("35-35=", ["35+35", "10+(-10)", "25-25", "35+(-35)"])
-if st.button("Check Answer"):
+if st.button("Check Expression"):
     if equation == "35+35":
         st.success(f"Result: Incorrect")
     elif equation == "10+(-10)":
