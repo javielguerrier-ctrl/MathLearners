@@ -60,7 +60,7 @@ if st.button("Check Expression"):
         st.success(f"Result: Correct")
 
 equation = st.selectbox("26+(-34)=", ["-8", "-10", "0", "60"])
-if st.button("Check Expression"):
+if st.button("Check Answer"):
     if equation == "-8":
         st.success(f"Result: Correct")
     elif equation == "-10":
