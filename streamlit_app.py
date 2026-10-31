@@ -36,8 +36,6 @@ st.title("Time To Practice")
 
 st.write("Multiplcation=*")
 st.write("Division=/")
-st.write("Addition=+")
-st.wirte("Subtraction= -")
 
 equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
 if st.button("Check Answer"):
