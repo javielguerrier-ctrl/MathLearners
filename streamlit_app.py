@@ -43,6 +43,17 @@ if st.button("Check Answer"):
         st.success(f"Result: Incorrect")
     elif equation == "45":
         st.success(f"Result: Incorrect")
+
+equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
+if st.button("Check Answer"):
+    if equation == "3":
+        st.success(f"Result: Incorrect")
+    elif equation == "0":
+        st.success(f"Result: Correct")
+    elif equation == "-1":
+        st.success(f"Result: Incorrect")
+    elif equation == "45":
+        st.success(f"Result: Incorrect")
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
