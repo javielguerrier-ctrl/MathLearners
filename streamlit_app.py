@@ -81,7 +81,7 @@ if st.button("Check Answer", key="btn_4"):
     elif equation == "25":
         st.success(f"Result: Incorrect")
 
-equation = st.selectbox("A Man buys a banana for everyday of a week which is 7 days and each banana cost 3 dollars, how much money did the man spend in total.", ["18", "-21", "21", "-81"])
+equation = st.selectbox("A Man buys a banana for everyday of a week which is 7 days and each banana cost 3 dollars, how much money did the man spend in total?", ["18", "-21", "21", "-81"])
 if st.button("Check Answer", key="btn_5"):
     if equation == "18":
         st.success(f"Result: Incorrect")
@@ -103,7 +103,7 @@ if st.button("Check Answer", key="btn_6"):
     elif equation == "-80":
         st.success(f"Result: Correct")
 
-equation = st.selectbox("45*-5=", ["15", "-9", "9", "-225"])
+equation = st.selectbox("45*-5=", ["15", "-9", "200", "-225"])
 if st.button("Check Answer", key="btn_7"):
     if equation == "15":
         st.success(f"Result: Incorrect")
@@ -124,6 +124,28 @@ if st.button("Check Answer", key="btn_8"):
         st.success(f"Result: Correct")
     elif equation == "5":
         st.success(f"Result: Incorrect")
+        
+equation = st.selectbox("What is 0.75 as a percent?", ["25%", "100%", "75%", "30%"])
+if st.button("Check Answer", key="btn_9"):
+    if equation == "25%":
+        st.success(f"Result: Incorrect")
+    elif equation == "100%":
+        st.success(f"Result: Incorrect")
+    elif equation == "75%":
+        st.success(f"Result: Correct")
+    elif equation == "30%":
+        st.success(f"Result: Inorrect")
+
+equation = st.selectbox("A diver goes 30 meters below sea level than after finsihing up went up 35 meters, how many meters above sea level is the diver now?", ["5 meters ", "-100 meters", "30 meters", "-10 meters"])
+if st.button("Check Answer", key="btn_10"):
+    if equation == "5 meters":
+        st.success(f"Result: Correct")
+    elif equation == "-100 meters":
+        st.success(f"Result: Incorrect")
+    elif equation == "30 meters":
+        st.success(f"Result: Incorrect")
+    elif equation == "-10 meters":
+        st.success(f"Result: Inorrect")
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
