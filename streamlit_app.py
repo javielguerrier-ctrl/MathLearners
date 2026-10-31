@@ -33,7 +33,7 @@ st.write("Finding percent: when you need to find the percent you will have one o
 
 
 st.title("Time To Practice")
-equation = st.write("-45+45=")
+equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
 
 
 st.title("Math Calculator")
