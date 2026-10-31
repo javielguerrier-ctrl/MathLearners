@@ -136,14 +136,14 @@ if st.button("Check Answer", key="btn_9"):
     elif equation == "30%":
         st.success(f"Result: Inorrect")
 
-equation = st.selectbox("A diver goes 30 meters below sea level than after finsihing up went up 35 meters, how many meters above sea level is the diver now?", ["5 meters ", "-100 meters", "30 meters", "-10 meters"])
+equation = st.selectbox("A diver goes 30 meters below sea level than after finsihing up went up 35 meters, how many meters above sea level is the diver now?", ["30 meters ", "-100 meters", "5 meters", "-10 meters"])
 if st.button("Check Answer", key="btn_10"):
-    if equation == "5 meters":
-        st.success(f"Result: Correct")
+    if equation == "30 meters":
+        st.success(f"Result: Incorrect")
     elif equation == "-100 meters":
         st.success(f"Result: Incorrect")
-    elif equation == "30 meters":
-        st.success(f"Result: Incorrect")
+    elif equation == "5 meters":
+        st.success(f"Result: Correct")
     elif equation == "-10 meters":
         st.success(f"Result: Inorrect")
 st.title("Math Calculator")
