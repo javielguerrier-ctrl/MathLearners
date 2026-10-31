@@ -91,6 +91,39 @@ if st.button("Check Answer", key="btn_5"):
         st.success(f"Result: Incorrect")
     elif equation == "-81":
         st.success(f"Result: Incorrect")
+
+equation = st.selectbox("-45+(-35)=", ["0", "-10", "40", "-80"])
+if st.button("Check Answer", key="btn_6"):
+    if equation == "0":
+        st.success(f"Result: Incorrect")
+    elif equation == "-10":
+        st.success(f"Result: Incorrect")
+    elif equation == "40":
+        st.success(f"Result: Incorrect")
+    elif equation == "-80":
+        st.success(f"Result: Correct")
+
+equation = st.selectbox("45*-5=", ["15", "-9", "9", "-225"])
+if st.button("Check Answer", key="btn_7"):
+    if equation == "15":
+        st.success(f"Result: Incorrect")
+    elif equation == "-9":
+        st.success(f"Result: Incorrect")
+    elif equation == "9":
+        st.success(f"Result: Incorrect")
+    elif equation == "-225":
+        st.success(f"Result: Correct")
+
+equation = st.selectbox("-45-45=", ["-15", "0", "-90", "5"])
+if st.button("Check Answer", key="btn_8"):
+    if equation == "-15":
+        st.success(f"Result: Incorrect")
+    elif equation == "0":
+        st.success(f"Result: Incorrect")
+    elif equation == "-90":
+        st.success(f"Result: Correct")
+    elif equation == "5":
+        st.success(f"Result: Incorrect")
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
