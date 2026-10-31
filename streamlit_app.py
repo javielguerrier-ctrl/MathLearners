@@ -82,7 +82,7 @@ if st.button("Check Answer", key="btn_4"):
         st.success(f"Result: Incorrect")
 
 equation = st.selectbox("A Man buys a banana for everyday of a week which is 7 days and each banana cost 3 dollars, how much money did the man spend in total.", ["18", "-21", "21", "-81"])
-if st.button("Check Answer", key="btn_5):
+if st.button("Check Answer", key="btn_5"):
     if equation == "18":
         st.success(f"Result: Incorrect")
     elif equation == "-21":
