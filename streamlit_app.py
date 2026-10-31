@@ -38,7 +38,7 @@ st.write("Multiplcation=*")
 st.write("Division=/")
 
 equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
-if st.button("Check Answer"):
+if st.button("Check Answer", key="btn_primary"):
     if equation == "3":
         st.success(f"Result: Incorrect")
     elif equation == "0":
@@ -49,7 +49,7 @@ if st.button("Check Answer"):
         st.success(f"Result: Incorrect")
 
 equation = st.selectbox("35-35=", ["35+35", "10+(-10)", "25-25", "35+(-35)"])
-if st.button("Check Expression"):
+if st.button("Check Answer", key="btn_secondary"):
     if equation == "35+35":
         st.success(f"Result: Incorrect")
     elif equation == "10+(-10)":
@@ -78,6 +78,17 @@ if st.button("Check answer"):
         st.success(f"Result: Incorrect")
     elif equation == "5":
         st.success(f"Result: Correct")
+    elif equation == "25":
+        st.success(f"Result: Incorrect")
+
+equation = st.selectbox("A Man buys a banana for everyday of a week which is 7 days and each banana cost 3 dollars, how much money did the man spend in total.", ["18", "-21", "21", "-81"])
+if st.button("Check Answer", key):
+    if equation == "-5":
+        st.success(f"Result: Incorrect")
+    elif equation == "-10":
+        st.success(f"Result: Correct")
+    elif equation == "5":
+        st.success(f"Result: Incorrect")
     elif equation == "25":
         st.success(f"Result: Incorrect")
 st.title("Math Calculator")
