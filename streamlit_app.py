@@ -59,16 +59,16 @@ if st.button("Check Expression"):
     elif equation == "35+(-35)":
         st.success(f"Result: Correct")
 
-equation = st.selectbox("35-35=", ["35+35", "10+(-10)", "25-25", "35+(-35)"])
+equation = st.selectbox("26+(-34)=", ["-8", "-10", "0", "60"])
 if st.button("Check Expression"):
-    if equation == "35+35":
+    if equation == "-8":
         st.success(f"Result: Correct")
-    elif equation == "10+(-10)":
+    elif equation == "-10":
         st.success(f"Result: Incorrect")
-    elif equation == "25-25":
+    elif equation == "0":
         st.success(f"Result: Incorrect")
-    elif equation == "35+(-35)":
-        st.success(f"Result: Correct")
+    elif equation == "60":
+        st.success(f"Result: Incorrect")
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
