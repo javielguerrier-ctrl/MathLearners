@@ -54,6 +54,7 @@ if st.button("Check Answer"):
         st.success(f"Result: Incorrect")
     elif equation == "45":
         st.success(f"Result: Incorrect")
+
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
