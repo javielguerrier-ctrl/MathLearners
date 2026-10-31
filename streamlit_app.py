@@ -34,12 +34,14 @@ st.write("Finding percent: when you need to find the percent you will have one o
 
 st.title("Time To Practice")
 equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
-
+if st.button("Check Answer"):
+    if equation = "3":
+        st.success(f"Result: Incorrect")
+    
 
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
-
 num1 = st.number_input("Enter first number", value=0.0)
 num2 = st.number_input("Enter second number", value=0.0)
 
