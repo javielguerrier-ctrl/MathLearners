@@ -35,7 +35,7 @@ st.write("Finding percent: when you need to find the percent you will have one o
 st.title("Time To Practice")
 equation = st.selectbox("-45+45=", ["3", "0", "-1", "45"])
 if st.button("Check Answer"):
-    if equation = "3":
+    if equation == "3":
         st.success(f"Result: Incorrect")
     
 
