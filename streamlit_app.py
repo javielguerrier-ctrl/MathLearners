@@ -148,7 +148,7 @@ if st.button("Check Answer", key="btn_10"):
         st.success(f"Result: Inorrect")
 
 equation = st.selectbox("what is 6/10 as a decimal?", ["0.60 ", "-3", "-0.060", "0"])
-if st.button("Check Answer", key="btn_10"):
+if st.button("Check Answer", key="btn_11"):
     if equation == "0.60":
         st.success(f"Result: Correct")
     elif equation == "-3":
