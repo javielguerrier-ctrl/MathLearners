@@ -217,8 +217,9 @@ if st.button("Calculate"):
         st.success(f"Result: {num1 - num2}")
     elif operation == "Multiply":
         st.success(f"Result: {num1 * num2}")
-    elif operation == "Divide":
-        if num2 == 0:ide":
-        st.error("Error! Division by zero is not allowed.")
-        else:
-            st.success(f"Result: {num1 / num2}")
+    if operation == "Divide":
+    if num2 == 0:
+    st.error("Error: Cannot divide by zero!")
+  else:
+    result = num1 / num2
+    st.write("Result:", result)
