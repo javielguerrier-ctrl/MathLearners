@@ -191,71 +191,17 @@ if st.button("Check Answer", key="btn_14"):
     elif equation == "24 meters":
         st.success(f"Result: Incorrect")
         
-equation = st.selectbox("", ["", "", "", ""])
+equation = st.selectbox("-15+634", ["-150", "400", "-600", "619"])
 if st.button("Check Answer", key="btn_15"):
-    if equation == "":
+    if equation == "-150":
         st.success(f"Result: Incorrect")
-    elif equation == "":
+    elif equation == "400":
         st.success(f"Result: Incorrect")
-    elif equation == "":
+    elif equation == "-600":
         st.success(f"Result: Incorrect")
-    elif equation == "":
+    elif equation == "619":
         st.success(f"Result: Correct")
 
-equation = st.selectbox("", ["", "", "", ""])
-if st.button("Check Answer", key="btn_16"):
-    if equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Correct")
-
-equation = st.selectbox("", ["", "", "", ""])
-if st.button("Check Answer", key="btn_17"):
-    if equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Correct")
-
-equation = st.selectbox("", ["", "", "", ""])
-if st.button("Check Answer", key="btn_18"):
-    if equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Correct")
-
-equation = st.selectbox("", ["", "", "", ""])
-if st.button("Check Answer", key="btn_19"):
-    if equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Correct")
-
-equation = st.selectbox("", ["", "", "", ""])
-if st.button("Check Answer", key="btn_20"):
-    if equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Incorrect")
-    elif equation == "":
-        st.success(f"Result: Correct")
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
