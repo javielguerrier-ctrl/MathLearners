@@ -147,7 +147,7 @@ if st.button("Check Answer", key="btn_10"):
     elif equation == "-10 meters":
         st.success(f"Result: Inorrect")
 
-equation = st.selectbox("what is 6/10 as a decimal?", ["0.60 ", "-3", "-0.060", "0"])
+equation = st.selectbox("what is 6/10 as a decimal?", ["0.60", "-3", "-0.060", "0"])
 if st.button("Check Answer", key="btn_11"):
     if equation == "0.60":
         st.success(f"Result: Correct")
@@ -157,6 +157,17 @@ if st.button("Check Answer", key="btn_11"):
         st.success(f"Result: Incorrect")
     elif equation == "0":
         st.success(f"Result: Inorrect")
+        
+equation = st.selectbox("what is 0.03 as a fraction", ["0", "3/10", "-10", "3/100"])
+if st.button("Check Answer", key="btn_12"):
+    if equation == "0":
+        st.success(f"Result: Incorrect")
+    elif equation == "3/10":
+        st.success(f"Result: Incorrect")
+    elif equation == "-10":
+        st.success(f"Result: Incorrect")
+    elif equation == "3/100":
+        st.success(f"Result: Correct")
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
