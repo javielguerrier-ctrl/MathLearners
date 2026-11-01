@@ -34,6 +34,8 @@ st.write("Finding percent: when you need to find the percent you will have one o
 
 st.title("Time To Practice")
 
+st.write("There are 15 practice questions to see if you understand what you learned.")
+st.write("Signs That Have Changed:")
 st.write("Multiplcation=*")
 st.write("Division=/")
 
@@ -191,7 +193,7 @@ if st.button("Check Answer", key="btn_14"):
     elif equation == "24 meters":
         st.success(f"Result: Incorrect")
         
-equation = st.selectbox("-15+634", ["-150", "400", "-600", "619"])
+equation = st.selectbox("-15+634", ["-156", "436", "-600", "619"])
 if st.button("Check Answer", key="btn_15"):
     if equation == "-150":
         st.success(f"Result: Incorrect")
@@ -217,6 +219,6 @@ if st.button("Calculate"):
         st.success(f"Result: {num1 * num2}")
     elif operation == "Divide":
         if num2 == 0:
-            st.error("Error! Division by zero is not allowed.")
-        else:
             st.success(f"Result: {num1 / num2}")
+
++}
