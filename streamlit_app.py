@@ -218,5 +218,5 @@ if st.button("Calculate"):
     elif operation == "Multiply":
         st.success(f"Result: {num1 * num2}")
     elif operation == "Divide":
-        st.success(f"Result: {num1 / num2}")
+        st.success(f"Result: {num1/num2}")
     
