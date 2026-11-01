@@ -168,6 +168,94 @@ if st.button("Check Answer", key="btn_12"):
         st.success(f"Result: Incorrect")
     elif equation == "3/100":
         st.success(f"Result: Correct")
+
+equation = st.selectbox("40*25=", ["1,000", "2", "-100", "3/9"])
+if st.button("Check Answer", key="btn_13"):
+    if equation == "1,000":
+        st.success(f"Result: Correct")
+    elif equation == "2":
+        st.success(f"Result: Incorrect")
+    elif equation == "-100":
+        st.success(f"Result: Incorrect")
+    elif equation == "3/9":
+        st.success(f"Result: Incorrect")
+        
+equation = st.selectbox("A hot air ballon goes up 14 meters in the sky then stops for a short a while then goes up 10 meters then goes down 24 meters, how many meters is the hot ballon at now?", ["-30 meters", "0 meters", "-48 meters", "24 meters"])
+if st.button("Check Answer", key="btn_14"):
+    if equation == "-30 meters":
+        st.success(f"Result: Incorrect")
+    elif equation == "0 meters":
+        st.success(f"Result: Correct")
+    elif equation == "-48 meters":
+        st.success(f"Result: Incorrect")
+    elif equation == "24 meters":
+        st.success(f"Result: Incorrect")
+        
+equation = st.selectbox("", ["", "", "", ""])
+if st.button("Check Answer", key="btn_15"):
+    if equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Correct")
+
+equation = st.selectbox("", ["", "", "", ""])
+if st.button("Check Answer", key="btn_16"):
+    if equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Correct")
+
+equation = st.selectbox("", ["", "", "", ""])
+if st.button("Check Answer", key="btn_17"):
+    if equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Correct")
+
+equation = st.selectbox("", ["", "", "", ""])
+if st.button("Check Answer", key="btn_18"):
+    if equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Correct")
+
+equation = st.selectbox("", ["", "", "", ""])
+if st.button("Check Answer", key="btn_19"):
+    if equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Correct")
+
+equation = st.selectbox("", ["", "", "", ""])
+if st.button("Check Answer", key="btn_20"):
+    if equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Incorrect")
+    elif equation == "":
+        st.success(f"Result: Correct")
 st.title("Math Calculator")
 
 operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
