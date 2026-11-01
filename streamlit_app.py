@@ -195,28 +195,12 @@ if st.button("Check Answer", key="btn_14"):
         
 equation = st.selectbox("-15+634", ["-156", "436", "-600", "619"])
 if st.button("Check Answer", key="btn_15"):
-    if equation == "-150":
+    if equation == "-156":
         st.success(f"Result: Incorrect")
-    elif equation == "400":
+    elif equation == "436":
         st.success(f"Result: Incorrect")
     elif equation == "-600":
         st.success(f"Result: Incorrect")
     elif equation == "619":
         st.success(f"Result: Correct")
-
-st.title("Math Calculator")
-
-operation = st.selectbox("Choose an operation:", ["Add", "Subtract", "Multiply", "Divide"])
-num1 = st.number_input("Enter first number", value=0.0)
-num2 = st.number_input("Enter second number", value=0.0)
-
-if st.button("Calculate"):
-    if operation == "Add":
-        st.success(f"Result: {num1 + num2}")
-    elif operation == "Subtract":
-        st.success(f"Result: {num1 - num2}")
-    elif operation == "Multiply":
-        st.success(f"Result: {num1 * num2}")
-    elif operation == "Divide":
-        st.success(f"Result: {num1/num2}")
     
